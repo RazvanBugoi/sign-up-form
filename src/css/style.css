@@ -26,4 +26,10 @@ body {
 
 #focus-text {
     border: 2px solid green;
+    background-color: hsl(248, 32%, 49%);
+}
+
+#free {
+    color: #fff;
+    font-weight: 600;
 }
