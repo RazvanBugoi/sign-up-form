@@ -61,4 +61,6 @@ body {
 #submit {
     text-transform: uppercase;
     background-color: hsl(154, 59%, 51%);
+    color: #fff;
+    font-weight: 600;
 }
