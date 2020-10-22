@@ -26,7 +26,6 @@ body {
     max-width: 720px;
     width: 40%;
     height: 70%;
-    border: 5px solid black;
 }
 
 .first-column {
@@ -39,8 +38,11 @@ body {
 }
 
 #focus-text {
-    border: 2px solid green;
+    height: 50px;
+    border-radius: 5px;
     background-color: hsl(248, 32%, 49%);
+    padding-top: 20px;
+    color: #fff;
 }
 
 #free {
