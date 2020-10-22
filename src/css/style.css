@@ -58,6 +58,15 @@ body {
     border: 1px solid black;
 }
 
+.sign-up-form {
+    border: 5px solid red;
+    height: 400px;
+}
+
+#first-name {
+    margin-top: 40px;
+}
+
 #submit {
     text-transform: uppercase;
     background-color: hsl(154, 59%, 51%);
