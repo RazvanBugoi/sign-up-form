@@ -1,15 +1,24 @@
 body {
     background-image: url("../../src/images/bg-intro-desktop.png");
     background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
     text-align: center;
-    background-color: #ffffff;
     max-width: 1440px;
     max-height: 785px;
     width: 1440px;
     height: 785px;
+}
+
+#first-words,
+#last-words {
+    display: block;
+    text-align: left;
+    font-size: 1.6em;
+    padding-left: 30px;
+    color: #fff;
 }
 
 .first-column,
@@ -20,10 +29,6 @@ body {
     border: 5px solid black;
 }
 
-#learn-to-code {
-    font-family: 'Poppins', sans-serif;
-}
-
 #focus-text {
     border: 2px solid green;
     background-color: hsl(248, 32%, 49%);
@@ -32,4 +37,11 @@ body {
 #free {
     color: #fff;
     font-weight: 600;
+}
+
+#description {
+    padding-left: 30px;
+    font-size: 16px;
+    text-align: left;
+    color: #fff;
 }
