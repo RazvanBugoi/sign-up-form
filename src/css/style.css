@@ -23,3 +23,7 @@ body {
 #learn-to-code {
     font-family: 'Poppins', sans-serif;
 }
+
+#focus-text {
+    border: 2px solid green;
+}
