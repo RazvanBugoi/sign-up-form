@@ -4,7 +4,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.container {
+
+/* .container {
     text-align: center;
     max-width: 1440px;
     max-height: 833px;
@@ -96,11 +97,47 @@ body {
 #last-name::placeholder,
 #email::placeholder,
 #password::placeholder {
-    /* padding-left: 20px; */
+    padding-left: 20px;
     font-size: 16px;
 }
 
 #tos-link {
     color: hsl(0, 100%, 74%);
     text-decoration: none;
+} */
+
+.container {
+    display: flex;
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+    height: 90vh;
+}
+
+.container>div {
+    flex: 1;
+}
+
+.first-column,
+.second-column {
+    margin: auto 0;
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        display: block;
+    }
+}
+
+#learn-to-code {
+    font-size: clamp(2rem, 3vw, 2rem);
+    padding: 0 30px;
+    color: #fff;
+    line-height: 150%;
+}
+
+#description {
+    color: #fff;
+    padding: 0 30px;
+    font-size: clamp(1rem, 1.5vw, 2rem);
 }
