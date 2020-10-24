@@ -130,7 +130,7 @@ body {
 }
 
 #learn-to-code {
-    font-size: clamp(2rem, 3vw, 2rem);
+    font-size: clamp(3rem, 3vw, 2rem);
     padding: 0 30px;
     color: #fff;
     line-height: 150%;
@@ -140,4 +140,39 @@ body {
     color: #fff;
     padding: 0 30px;
     font-size: clamp(1rem, 1.5vw, 2rem);
+}
+
+#first-name,
+#last-name,
+#email,
+#password {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    font-size: 16px;
+    width: 450px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#submit {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: 479px;
+    height: 49px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    background-color: hsl(154, 59%, 51%);
+    color: #fff;
+    font-weight: 600;
+}
+
+.sign-up-form {
+    text-align: center;
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 10px;
+    background-color: #fff;
 }
