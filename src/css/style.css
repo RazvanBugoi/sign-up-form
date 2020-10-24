@@ -171,6 +171,7 @@ body {
 }
 
 .sign-up-form {
+    padding: 60px 0;
     text-align: center;
     border: 1px solid hsl(246, 25%, 77%);
     border-radius: 10px;
@@ -189,4 +190,8 @@ body {
 #free {
     color: #fff;
     font-weight: 600;
+}
+
+#tos {
+    font-size: 11px;
 }
