@@ -185,6 +185,7 @@ body {
     background-color: hsl(248, 32%, 49%);
     padding-top: 20px;
     color: #fff;
+    box-shadow: 0 10px 10px 0px hsl(249, 10%, 26%);
 }
 
 #free {
