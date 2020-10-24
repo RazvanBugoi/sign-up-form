@@ -195,3 +195,9 @@ body {
 #tos {
     font-size: 11px;
 }
+
+#tos-link {
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
+    font-weight: bold;
+}
