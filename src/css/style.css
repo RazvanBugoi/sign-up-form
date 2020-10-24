@@ -176,3 +176,12 @@ body {
     border-radius: 10px;
     background-color: #fff;
 }
+
+#focus-text {
+    text-align: center;
+    height: 50px;
+    border-radius: 5px;
+    background-color: hsl(248, 32%, 49%);
+    padding-top: 20px;
+    color: #fff;
+}
