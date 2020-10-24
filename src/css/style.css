@@ -170,6 +170,10 @@ body {
     font-weight: 600;
 }
 
+#submit:hover {
+    cursor: pointer;
+}
+
 .sign-up-form {
     padding: 60px 0;
     text-align: center;
