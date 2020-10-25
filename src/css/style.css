@@ -179,6 +179,7 @@ body {
 
 #submit:hover {
     cursor: pointer;
+    background-color: hsl(154, 59%, 40%);
 }
 
 .sign-up-form {
