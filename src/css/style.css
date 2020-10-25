@@ -132,7 +132,11 @@ body {
     #email,
     #password,
     #submit {
-        max-width: fit-content;
+        max-width: 70%;
+    }
+    #tos {
+        max-width: 60%;
+        margin: 0 auto;
     }
 }
 
