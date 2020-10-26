@@ -164,7 +164,7 @@ body {
     width: 450px;
     height: 45px;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 1px solid hsl(246, 25%, 77%);
 }
 
 #submit {
@@ -174,7 +174,7 @@ body {
     width: 479px;
     height: 49px;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 1px solid hsl(246, 25%, 77%);
     text-transform: uppercase;
     background-color: hsl(154, 59%, 51%);
     color: #fff;
